@@ -13,6 +13,7 @@
 		A7C41E1129A7B418008E6777 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C41E1029A7B418008E6777 /* Preview Assets.xcassets */; };
 		A7C41E1329A7B418008E6777 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C41E1229A7B418008E6777 /* Persistence.swift */; };
 		A7C41E1629A7B418008E6777 /* Flipboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7C41E1429A7B418008E6777 /* Flipboard.xcdatamodeld */; };
+		A7FED42C29BDA3AE00B96E22 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FED42B29BDA3AE00B96E22 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A7C41E1029A7B418008E6777 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7C41E1229A7B418008E6777 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A7C41E1529A7B418008E6777 /* Flipboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flipboard.xcdatamodel; sourceTree = "<group>"; };
+		A7FED42B29BDA3AE00B96E22 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		A7C41E0829A7B417008E6777 /* Flipboard */ = {
 			isa = PBXGroup;
 			children = (
+				A7FED42A29BDA39E00B96E22 /* Models */,
 				A7C41E0929A7B417008E6777 /* FlipboardApp.swift */,
 				A7C41E0B29A7B417008E6777 /* ContentView.swift */,
 				A7C41E0D29A7B418008E6777 /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				A7C41E1029A7B418008E6777 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7FED42A29BDA39E00B96E22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7FED42B29BDA3AE00B96E22 /* Tab.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			files = (
 				A7C41E1329A7B418008E6777 /* Persistence.swift in Sources */,
 				A7C41E1629A7B418008E6777 /* Flipboard.xcdatamodeld in Sources */,
+				A7FED42C29BDA3AE00B96E22 /* Tab.swift in Sources */,
 				A7C41E0C29A7B417008E6777 /* ContentView.swift in Sources */,
 				A7C41E0A29A7B417008E6777 /* FlipboardApp.swift in Sources */,
 			);
