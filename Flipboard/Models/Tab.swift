@@ -7,4 +7,11 @@
 
 import Foundation
 
-
+enum Tab {
+    
+    case forYou
+    case following
+    case explore
+    case notifications
+    case person
+}
